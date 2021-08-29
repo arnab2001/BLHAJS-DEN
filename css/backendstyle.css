@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Overpass:wght@300&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    overflow-x: hidden;
+   
+}
+
+:root{
+   --primary-col:#1b98f5;
+    --secondary-col:#207398;
+    --ocean-col:#51e1ed;
+    --dark-color:#002240;
+    --ligt-color:#f4f4f4;
+    --navbar-font:'Overpass', sans-serif;
+    --game-font:'Press Start 2P', cursive;
+    --italic-font:'Allura', cursive;
+
+}
+.texto{
+    font-family: var(--game-font);
+    color: #f4f4f4;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.join{
+    height: auto;
+    background-color: #002240;
+}
+.btun{
+    font-family: var(--game-font);
+    text-transform: capitalize;
+    font-weight: bold;
+    display:inline-block;
+    padding:10px 30px;
+    cursor: pointer;
+    background:#123859;    ;
+    color: #fff;
+    border:none;
+    border-radius:5px;
+    box-shadow:0 4px 5px rgba(0,0,0,0.5);
+    margin:20px ;
+  }
+  .btun:hover{
+    
+    color: #fff;
+  }
+ 
